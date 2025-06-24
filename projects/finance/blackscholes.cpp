@@ -40,11 +40,23 @@ double put_price(const double& S, const double& K, const double& r, const double
 
 int main(int argc, char **argv) {
     
-    double S = 100.0;  
-    double K = 100.0; 
-    double r = 0.05;   
-    double v = 0.2;   
-    double T = 1.0;    
+    double S, K, r, v, T;
+
+    std::cout << "Enter current asset price (S): ";
+    std::cin >> S;
+
+    std::cout << "Enter strike price (K): ";
+   std::cin >> K;
+
+   std::cout << "Enter risk-free rate (r) [e.g., 0.05 for 5%]: ";
+   std::cin >> r;
+
+   std::cout << "Enter volatility (v) [e.g., 0.2 for 20%]: ";
+   std::cin >> v;
+
+   std::cout << "Enter time to expiry (T) in years: ";
+   std::cin >> T;
+
    
     double call = call_price(S, K, r, v, T);
     double put = put_price(S, K, r, v, T);

@@ -1,6 +1,6 @@
 # RoadToQuant
 
-**RoadToQuant** is a personal archive of programming projects created along my journey into quantitative finance. Each project represents a step forward — from learning programming fundamentals to tackling finance-specific challenges.
+**RoadToQuant** is a personal archive of programming projects created along my journey into quantitative finance. Each project represents a step forward, from learning programming fundamentals to tackling finance-specific challenges.
 
 ## What's Inside
 
@@ -18,7 +18,7 @@
 
 ## Purpose
 
-This repository documents my applied learning. It’s not about perfection — it’s about process, progress, and precision. I aim to understand the core of quantitative finance by building from scratch.
+This repository documents my applied learning. It’s not about perfection, it’s about process, progress, and precision. I aim to understand the core of quantitative finance by building from scratch.
 
 ## Tools and Languages
 

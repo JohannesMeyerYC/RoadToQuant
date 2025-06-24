@@ -57,6 +57,12 @@ int main(int argc, char **argv) {
    std::cout << "Enter time to expiry (T) in years: ";
    std::cin >> T;
 
+    if (S <= 0 || K <= 0 || v <= 0 || T <= 0) {
+      std::cerr << "Error: Input parameters must be positive." << std::endl;
+      return 1;
+    }
+
+
    
     double call = call_price(S, K, r, v, T);
     double put = put_price(S, K, r, v, T);

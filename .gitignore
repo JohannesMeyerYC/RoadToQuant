@@ -30,3 +30,118 @@
 *.exe
 *.out
 *.app
+
+---
+# C++ Specific
+---
+# CMake generated files
+/build/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Visual Studio / MSVC
+*.aps
+*.bsc
+*.cod
+*.ilk
+*.ipch
+*.log
+*.ncb
+*.opendb
+*.pdb
+*.res
+*.sbr
+*.suo
+*.user
+*.vcproj.filters
+*.vcxproj.filters
+*.vcxproj.user
+*.vspscc
+*.vssscc
+*.tlog
+*.lastbuildstate
+*.obj.enc
+*.PDB
+*.IDB
+*.lib
+*.exp
+*.opt
+*.aps
+*.manifest
+*.sdf
+*.ipch
+*.iobj
+*.resources
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.xctestplan
+*.xccoordinatedtours
+
+---
+# IDE Specific
+---
+# Eclipse
+.project
+.classpath
+.settings/
+*.launch
+.metadata
+
+# Editors
+.vscode/
+.idea/
+
+---
+# Python Specific
+---
+# Virtual Environment
+# Covers common virtual environment names like 'env', 'venv', '.venv'
+# Also covers environments created by tools like poetry (.venv in project root)
+env/
+venv/
+.venv/
+*/bin/activate
+*/Scripts/activate
+*/pyvenv.cfg
+
+# Byte-code files
+*.pyc
+*.pyd
+*.pyo
+
+# Caches
+__pycache__/
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+*.egg-info/
+.coverage
+.tox/
+dist/
+build/
+*.whl
+
+# IPython / Jupyter Notebook
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+
+# Sphinx documentation
+docs/_build/
+
+---
+# Miscellaneous
+---
+*.orig
+*.swp
+*.bak
+*.core
+*.stackdump
